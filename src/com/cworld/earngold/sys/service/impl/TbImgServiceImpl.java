@@ -21,7 +21,7 @@ public class TbImgServiceImpl implements TbImgService {
 	
 	@Transactional
 	public int insert(TbImg tbImg) {
-		return tbImgMapper.insert(tbImg);
+		return tbImgMapper.insert(tbImg);   
 	}
 	
 	@Transactional
