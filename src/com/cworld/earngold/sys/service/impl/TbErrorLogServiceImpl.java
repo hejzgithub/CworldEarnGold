@@ -15,7 +15,7 @@ public class TbErrorLogServiceImpl implements TbErrorLogService {
 	@Resource
 	private TbErrorLogMapper tbErrorLogMapper;    
 	
-	public TbErrorLog searchById(Integer error_log_id){   
+	public TbErrorLog searchById(Integer error_log_id){       
 		return tbErrorLogMapper.selectByPrimaryKey(error_log_id);
 	}
 	
