@@ -1,0 +1,180 @@
+@media only screen and (min-width: 0px) and (max-width: 1023px) {
+.price{
+	display: none;
+}
+}
+@media only screen and (min-width: 0px) and (max-width: 940px) {
+	
+	.media .news_wangyi{
+		width: 5rem;
+	}
+	.buy_gold{
+		
+	}
+	nav a.logo,nav .buy_gold,nav .buy_gold_bars{
+		float: left; display: inline-block; clear: right;
+	}
+	nav{
+		width: 100%;
+	}
+	nav .nav{
+		clear: both; width: 100%; overflow-x: auto; overflow-y: hidden;
+	}
+	.col_2{
+		clear: both;width: 100%;
+	}
+	.conditions{
+		margin: 0 auto;
+	}
+	.by_way{
+		margin: 0 auto;
+	}
+	.tip{
+		margin: 2rem auto;
+	}
+}
+@media only screen and (min-width: 0px) and (max-width: 640px) {
+	.row{
+		margin: .2rem auto;
+	}
+	.top .kww{
+		display: none;
+	}
+	.col_3{
+		width: 100%; clear: both;
+	}
+	.media .col_3{
+		width: 100%; clear: both;
+	}
+	.col_4{
+		width: 50%;display: table;
+	}
+	.advantage .col_4{
+		border-right: none;
+	}
+	.col_8{
+		width: 100%;
+	}
+	h6{
+		line-height: 2.5rem;
+	}
+	.state{
+		width: 100%;
+	}
+	footer .con_left{
+		clear: both;width: 100%;
+	}
+	footer .con_left ul{
+		margin: 0 auto;
+	}
+	footer .con_right{
+		width: 100%; border: none;
+	}
+	
+	
+	.copy_right i{
+		display: inline;
+	}
+	a.icon_fico{
+		display: block; margin: 0 auto;
+	}
+	.copy_right ul{
+		width: 72%;margin: 0 auto;
+	}
+	.copy_right ul li{
+		margin top:.5rem ;    
+	}
+	.copy_right p{
+		text-align: center;
+	}
+	.divider{
+		display: none;
+	}
+	.infer .col_4{
+		width: 30%;
+	}
+	.infer .infer_title{
+		float: left; width: 65%;
+	}
+	nav .nav{
+		display: block;
+	}
+	#cvg{
+		width: 90%; height: 100%;
+	}
+	
+	
+	
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 430px) {
+	nav a.logo{
+		margin-right: .75rem;
+	}
+	nav .buy_gold,nav .buy_gold_bars{
+		float: left; margin: .8rem .15rem;
+	}
+	
+	.media h6{
+		width: 100%; line-height: 1.5rem; clear: both;
+	}
+	.login ul li:nth-child(2) input, .login ul li:nth-child(3) input{
+		width: 70%;
+	}
+	.tip ul{
+		padding: 1rem;
+	}
+	 
+}
+
+@media only screen and (min-width: 100px) and (max-width: 410px) {
+	nav a.logo{
+		margin: 0 auto; clear: both; display: block; float: none;
+	}
+	nav .buy_gold{
+		clear: both;
+	}
+	nav .buy_gold,nav .buy_gold_bars{
+		text-align: center;
+	}
+	.infer .col_4{
+		width: 40%;
+	}
+	.infer .infer_title{
+		float: left; width: 60%;
+	}
+	nav a.logo{
+		margin: 0;float: left;
+	}
+	nav .buy_gold, nav .buy_gold_bars{
+		margin: .2rem 0rem .2rem 1rem;float: left;clear: none;
+	}
+	.login ul li:nth-child(5) input{
+		display: block;margin: 0 auto;
+	}
+	.login ul li:nth-child(5) a{
+		display: block;margin: 0 auto; padding: 0; text-align: center;
+	}
+	.buy_g p{
+		background-position: 7px 32px;
+	}
+}
+@media only screen and (min-width: 0px) and (max-width: 390px) {
+	.center_block{
+		width: 100%; min-width: 0 !important;
+	}
+	.unit .next,.unit .pro{
+		margin: 3rem 1rem 0;
+	}
+	.by_way li .buy_inline input{
+		width: 50%;
+	}
+	.by_way li .buy_inline b,.by_way li .buy_inline label{
+		float: left;
+	}
+	.by_way li .buy_inline span{
+		width: 60%;		
+	}
+	
+}

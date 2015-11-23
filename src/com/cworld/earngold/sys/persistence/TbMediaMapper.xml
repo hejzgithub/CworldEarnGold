@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "mybatis-3-mapper.dtd" >
+<mapper namespace="com.cworld.earngold.sys.persistence.TbMediaMapper" >
+
+  <select id="selectByPrimaryKey" resultType="TbMedia" >
+    select media_id ,media_title ,media_des ,media_source ,media_link ,create_date ,update_date from tb_media where  media_id = #{media_id} and is_del = 0
+  </select>
+  
+  <select id="search" resultType="TbMedia">
+    select media_id ,media_title ,media_des ,media_source ,media_link ,create_date ,update_date from tb_media where is_del = 0 order by create_date desc
+  </select>
+  
+  <insert id="insert" parameterType="com.cworld.earngold.sys.domain.TbMedia" useGeneratedKeys="true" >
+    insert into tb_media (media_title ,media_des ,media_source ,media_link ,create_date ,is_del ) values (#{media_title},#{media_des},#{media_source},#{media_link},curdate(),0)
+  </insert>
+  
+  <delete id="deleteByPrimaryKey">
+    update tb_media set is_del = 1 where  media_id = #{media_id}
+  </delete>
+  
+  <update id="updateByPrimaryKey" parameterType="com.cworld.earngold.sys.domain.TbMedia" >
+    update tb_media set media_title = #{media_title},media_des = #{media_des},media_source = #{media_source},media_link = #{media_link},update_date = curdate() where  media_id = #{media_id}
+  </update>
+  
+</mapper>

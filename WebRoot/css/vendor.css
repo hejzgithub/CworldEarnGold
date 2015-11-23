@@ -1,0 +1,1036 @@
+@CHARSET "UTF-8";
+body {
+    background: #fff none repeat scroll 0 0;
+    color: #676767;
+    font-family: "Microsoft YaHei",Arial,SansSerif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    margin: 0;
+}
+body .number {
+    font-family: Helvetica;
+}
+a {
+    color: #676767;
+    text-decoration: none;
+}
+textarea {
+    resize: none;
+}
+.button {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/static/images/account_button.png") no-repeat scroll 0 0;
+    color: #654700;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    height: 44px;
+    line-height: 44px;
+    padding: 0;
+    text-align: center;
+    width: 163px;
+}
+.button-1 {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/static/images/account_button1.png") no-repeat scroll 0 0;
+    color: #654700;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    height: 44px;
+    line-height: 44px;
+    padding: 0;
+    text-align: center;
+    width: 93px;
+}
+.down_banner {
+    border-color: #c3c3c3 #fff #fff;
+    border-style: solid;
+    border-width: 5px 6px 0;
+    display: inline-block;
+    height: 0;
+    margin-bottom: 2px;
+    margin-left: 4px;
+    width: 0;
+}
+.button-2 {
+    background-color: #fe7511;
+    border: 0 none;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    width: 100%;
+}
+button {
+    border: 0 none;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    padding: 12px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul.inline li, ul.option-list li {
+    float: left;
+}
+ul.option-list a {
+    color: #654700;
+    padding: 5px 10px;
+}
+ul.option-list .active a {
+    background: #ffe6bf none repeat scroll 0 0;
+}
+dl {
+    margin: 0;
+    padding: 0;
+}
+dl.inline {
+    padding: 0;
+}
+dl.inline dd, dl.inline dt {
+    float: left;
+}
+.icon-arrow_down, .icon-clock, .icon-cmb, .icon-contact, .icon-exclaimation, .icon-lock, .icon-plus, .icon-sprite, .icon-square_minus, .icon-square_plus {
+    background-image: url("https://www.g-banker.com/static/images/generated/icon-sd90730d593.png");
+    background-repeat: no-repeat;
+}
+.icon-weixin {
+    background: rgba(0, 0, 0, 0) url("../img/home_footer_wbx1.png") no-repeat scroll 0 0;
+    display: inline-block;
+    height: 28px;
+    vertical-align: middle;
+    width: 28px;
+}
+.icon-weixin:hover {
+    background-position: -40px 0;
+}
+.gw-picture {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/static/images/gw-03.png") no-repeat scroll 0 0;
+    display: inline-block;
+    float: right;
+    height: 32px;
+    margin-top: 10px;
+    width: 16px;
+}
+.gw-code-win {
+    background-color: #fff;
+    border: 1px solid #e4e4e4;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px #969696;
+    display: none;
+    left: 905px;
+    margin-top: 48px;
+    padding: 14px 16px;
+    position: absolute;
+    z-index: 21;
+}
+.gw-code-win2 {
+    background-color: #fff;
+    border: 1px solid #e4e4e4;
+    border-radius: 5px;
+    box-shadow: 0.1px 0.5px 3px #bcbbbb;
+    display: none;
+    left: 850px;
+    margin-top: 54px;
+    padding: 14px 16px;
+    position: absolute;
+    z-index: 21;
+}
+.gw-up1 {
+    border-color: transparent transparent #e4e4e4;
+    border-style: dashed dashed solid;
+    border-width: 11px;
+    left: 64px;
+    position: absolute;
+    top: -23px;
+}
+.gw-up2 {
+    border-color: transparent transparent #fff;
+    border-style: dashed dashed solid;
+    border-width: 11px;
+    position: absolute;
+    top: -22px;
+    z-index: 11;
+}
+.gw-info {
+    border-bottom: 1px solid #e8e8e8;
+    font-size: 12px;
+    line-height: 12px;
+    padding-bottom: 9px;
+}
+.gw-code {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/static/images/gw_05_03.png") no-repeat scroll 0 0;
+    height: 123px;
+    margin-top: 11px;
+    width: 123px;
+}
+.icon-weibo {
+    background: rgba(0, 0, 0, 0) url("../img/home_footer_wbx1.png") no-repeat scroll 0 -40px;
+    display: inline-block;
+    height: 28px;
+    vertical-align: middle;
+    width: 28px;
+}
+.icon-weibo:hover {
+    background-position: -40px -40px;
+}
+.ceil-weixin {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/static/images/shared/ceil_weixin.png?2015911.png") no-repeat scroll 0 0;
+    display: none;
+    height: 198px;
+    left: 150px;
+    position: absolute;
+    width: 158px;
+    z-index: 11;
+}
+.ceil-weixin-bottom {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/static/images/shared/ceil_weixin.png?2015911.png") no-repeat scroll 0 0;
+    display: none;
+    height: 198px;
+    left: 44px;
+    position: absolute;
+    top: 42px;
+    width: 158px;
+    z-index: 11;
+}
+.icon-arrow_down {
+    background-position: 0 0;
+}
+.icon-clock {
+    background-position: 0 -20px;
+}
+.icon-cmb {
+    background-position: 0 -40px;
+}
+.icon-contact {
+    background-position: 0 -60px;
+}
+.icon-exclaimation {
+    background-position: 0 -80px;
+}
+.icon-lock {
+    background-position: 0 -100px;
+}
+.icon-plus {
+    background-position: 0 -120px;
+}
+.icon-square_minus {
+    background-position: 0 -140px;
+}
+.icon-square_plus {
+    background-position: 0 -160px;
+}
+.icon {
+    display: inline-block;
+    height: 20px;
+    vertical-align: middle;
+    width: 20px;
+}
+ul {
+    list-style: outside none none;
+}
+.header h2 {
+    border-bottom: 1px solid #d9d9d9;
+    color: #5e5e5e;
+    font-size: 16px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding-bottom: 5px;
+}
+.header h2 span {
+    color: #b0b0b0;
+}
+.gbanker-ceil .light-ceil {
+    border-bottom: 1px solid #e4e4e4;
+}
+.gbanker-navbar {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #e4e4e4;
+}
+.gbanker-ceil .gray-ceil {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #e4e4e4;
+}
+.gbanker-ceil .row {
+    line-height: 42px;
+    position: relative;
+}
+.gbanker-ceil .contacts {
+    width: 570px;
+}
+.gbanker-ceil .contacts dd, .gbanker-ceil .contacts dt {
+    border-left: 1px solid #e4e4e4;
+    float: left;
+    margin: 0;
+    padding: 0 14px;
+}
+.icon-weibo-border {
+    border-right: 1px solid #e4e4e4;
+    display: inline-block;
+}
+.gbanker-ceil .contacts dd {
+    padding-right: 42px;
+}
+.gbanker-ceil .contacts .tel {
+    background-image: url("https://www.g-banker.com/static/images/ceil_tel.png");
+    height: 17px;
+    margin-right: 40px;
+    margin-top: 8px;
+    width: 124px;
+}
+.gbanker-ceil .login li {
+    border-left: 1px solid #e4e4e4;
+    padding: 0 15px;
+    position: relative;
+}
+.gbanker-ceil .login li a {
+    display: inline-block;
+}
+.gbanker-ceil .login li .tel {
+    text-decoration: underline;
+}
+.gbanker-navbar .links h1 {
+    margin: 0;
+}
+.gbanker-navbar .links h1 a {
+    background-image: url("../img/logo.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    height: 110px;
+    overflow: hidden;
+    text-align: left;
+    text-indent: -119988px;
+    text-transform: capitalize;
+    width: 191px;
+}
+.gbanker-navbar .subtitle {
+    margin-left: 20px;
+    margin-top: 35px;
+}
+.gbanker-navbar .nav {
+    width: 600px;
+}
+.gbanker-navbar .nav ul {
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.gbanker-navbar .nav li {
+    padding: 15px 15px 0;
+}
+.gbanker-navbar .nav li.active a {
+    color: #fe9711;
+}
+.gbanker-navbar .nav a {
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+    padding-bottom: 2px;
+}
+.gbanker-navbar .nav a:hover {
+    color: #fe9711;
+}
+.gbanker-navbar .nav a.active {
+    font-weight: bolder;
+}
+.gbanker-navbar .actions {
+    font-size: 16px;
+    width: 197px;
+}
+.gbanker-navbar .actions ul {
+    margin-top: 40px;
+}
+.gbanker-navbar .actions .button-alpha {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/static/images/account_button_new.png") no-repeat scroll -275px -29px;
+    height: 19px;
+    text-align: center;
+    width: 67px;
+}
+.gbanker-navbar .actions .button-beta {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/static/images/account_button_new.png") no-repeat scroll -373px -29px;
+    height: 19px;
+    margin-left: 15px;
+    text-align: center;
+    width: 67px;
+}
+.gbanker-navbar .actions .button-gold {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/static/images/gold_button.png") no-repeat scroll 0 0;
+    height: 19px;
+    padding: 12px;
+    width: 67px;
+}
+.gbanker-navbar .actions .button-bullion {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/static/images/bullion_button.png") no-repeat scroll 0 0;
+    height: 19px;
+    margin-left: 15px;
+    padding: 12px;
+    width: 67px;
+}
+.pull-right {
+    float: right !important;
+}
+.pull-left {
+    float: left !important;
+}
+.row-info {
+    background-color: #fffffe;
+    border-bottom: 1px solid #e2e2e2;
+    width: 100%;
+}
+.row {
+    margin: 0 auto;
+    width: 1004px;
+}
+.row .unit {
+    float: left;
+    position: relative;
+}
+.row .unit2 {
+    float: right;
+    position: relative;
+}
+.row::after, .row::before {
+    content: " ";
+    display: table;
+}
+.row::after {
+    clear: both;
+}
+.half-width-col {
+    width: 50%;
+}
+.half-width-offset {
+    left: 50%;
+}
+.hide {
+    display: none;
+}
+.clearfix {
+}
+.clearfix::after, .clearfix::before {
+    content: " ";
+    display: table;
+}
+.clear, .clearfix::after {
+    clear: both;
+}
+form.frame {
+    border: 1px solid #dedede;
+    border-radius: 5px;
+}
+form label {
+    color: #595959;
+    display: block;
+    font-size: 16px;
+    line-height: 40px;
+    margin-right: 19px;
+}
+form fieldset, form legend {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+form input[type="text"], form input[type="password"], form textarea {
+    border: 1px solid #a3a3a3;
+    box-sizing: border-box;
+    font-size: 16px;
+    outline: 0 none;
+    padding: 10px 15px;
+}
+form input.active, form input:focus, form textarea.active, form textarea:focus {
+    border-color: #fe9711;
+}
+form .select-control {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #a3a3a3;
+    display: inline-block;
+    padding: 10px 0;
+}
+form .select-control select {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+    font-family: "Microsoft YaHei",Arial,SansSerif;
+    font-size: 14px;
+    outline: 0 none;
+}
+form .group-control .group {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #a3a3a3;
+    display: inline-block;
+}
+form .group-control .group input {
+    border: 0 none;
+    color: #000;
+    font-size: 18px;
+    padding: 10px 15px;
+    width: 205px;
+}
+form .group-control .group span {
+    font-size: 16px;
+    padding-right: 10px;
+}
+form .input-group, form .input-icon-group {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+form .input-icon-group {
+    border: 1px solid #a3a3a3;
+}
+form .input-icon-group input {
+    border: 1px solid #fff;
+}
+form .input-icon-group label {
+    background: #eee none repeat scroll 0 0;
+    display: inline-block;
+    padding: 11px;
+}
+.gbanker-footer {
+    border-top: 1px solid #ebeaea;
+    box-shadow: 0 -1px 2px #f1f1f1;
+    color: #b6b6b6;
+    font-size: 14px;
+    padding-top: 61px;
+}
+.gbanker-footer .links {
+    border-right: 1px solid #dfdfdf;
+    font-family: "Helvetica","Microsoft YaHei";
+    margin-bottom: 72px;
+    width: 650px;
+}
+.gbanker-footer .links ul.inline li {
+    border-right: 1px solid #d4d4d4;
+}
+.gbanker-footer .links ul.inline li:last-child {
+    border-right: medium none transparent;
+}
+.gbanker-footer .links ul.inline a {
+    color: #686868;
+    font-size: 16px;
+    padding: 0 14px;
+}
+.gbanker-footer .links ul.inline {
+    height: 20px;
+}
+.gbanker-footer .links ul.inline a:hover {
+    color: #fe9711;
+}
+.gbanker-footer .links div.about-us {
+    clear: both;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 52px;
+}
+.gbanker-footer .links div.about-us a:last-child {
+    margin-right: 19px;
+}
+.gbanker-footer .links a:hover {
+    color: #303030;
+}
+.gbanker-footer .links li:first-child a {
+    padding-left: 0;
+}
+.gbanker-footer .links li:last-child a {
+    border: 0 none;
+}
+.gbanker-footer .links dl {
+    clear: both;
+    line-height: 26px;
+    padding-top: 40px;
+}
+.gbanker-footer .links dl dt {
+    clear: left;
+}
+.gbanker-footer .links dl dd {
+    margin: 0;
+}
+.gbanker-footer .pagebottom {
+    padding: 20px 0;
+}
+.gbanker-footer .pagebottom ul {
+    float: left;
+    width: 450px;
+}
+.gbanker-footer .pagebottom ul p {
+    color: #a4a4a4;
+    font-size: 12px;
+    width: 450px;
+}
+.gbanker-footer .pagebottom .copyright {
+    float: right;
+    width: 420px;
+}
+.gbanker-footer .pagebottom .copyright div {
+    color: #777777;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 100px;
+}
+.gbanker-footer .pagebottom .copyright .fico {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/static/images/home_footer_fico.png") no-repeat scroll 0 0;
+    float: left;
+    height: 31px;
+    width: 88px;
+}
+.gbanker-footer .pagebottom .copyright .fico:hover {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/static/images/home_footer_fico.png") no-repeat scroll 0 -31px;
+    float: left;
+    height: 31px;
+    width: 88px;
+}
+.gbanker-footer .pagebottom .copyright .inline {
+    float: right;
+    font-size: 12px;
+}
+.gbanker-footer .pagebottom .copyright .inline dt {
+    float: right;
+    line-height: 20px;
+}
+.gbanker-footer .pagebottom .verify1, .gbanker-footer .pagebottom .verify2 {
+    float: left;
+    margin-right: 30px;
+    width: 90px;
+}
+.gbanker-footer .pagebottom .verify2 {
+    margin-top: -5px;
+}
+.gbanker-footer .pagebottom .verify1 a {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/static/images/home_footer_kx.png") no-repeat scroll 0 0;
+    float: left;
+    height: 31px;
+    width: 86px;
+}
+.gbanker-footer .pagebottom .verify1 a:hover {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/static/images/home_footer_kx.png") no-repeat scroll 0 -31px;
+    float: left;
+    height: 31px;
+    width: 86px;
+}
+.gbanker-footer .pagebottom .verify2 a {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/static/images/home_footer_nt.png?20151010.png") no-repeat scroll 0 0;
+    float: left;
+    height: 40px;
+    width: 75px;
+}
+.gbanker-footer .pagebottom .verify2 a:hover {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/static/images/home_footer_nt.png?20151010.png") no-repeat scroll 0 -40px;
+    float: left;
+    height: 40px;
+    width: 75px;
+}
+.gbanker-footer .pagebottom .verify3 a {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/static/images/home_footer_goldAss.png?20151010.png") no-repeat scroll 0 0;
+    float: left;
+    height: 32px;
+    width: 146px;
+}
+.gbanker-footer .pagebottom .verify3 a:hover {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/static/images/home_footer_goldAss.png?20151010.png") no-repeat scroll 0 -32px;
+    float: left;
+    height: 32px;
+    width: 146px;
+}
+.gbanker-footer .contactus {
+    float: right;
+    font-family: "Helvetica","Microsoft YaHei";
+    padding-right: 46px;
+    text-align: center;
+}
+.gbanker-footer .contactus span {
+    font-family: "Microsoft YaHei";
+}
+.gbanker-footer .contactus ul {
+    height: 31px;
+}
+.gbanker-footer .contactus .inline {
+    float: right;
+    padding-top: 24px;
+}
+.gbanker-footer .contactus .inline dt {
+    float: right;
+    line-height: 26px;
+}
+.gbanker-footer .contactus .telus {
+    color: #fe9711;
+    font-size: 30px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+}
+.gbanker-footer .contactus .phone {
+    padding-top: 22px;
+}
+.gbanker-footer .contactus .qq {
+    color: #141000;
+    font-size: 16px;
+    padding-top: 32px;
+}
+.gbanker-footer .footer_kx {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/static/images/home_footer_kx.png") no-repeat scroll 0 0;
+    float: right;
+    height: 31px;
+    width: 86px;
+}
+.gbanker-footer .footer_kx:hover {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/static/images/ceil_follow.png") no-repeat scroll 0 -31px;
+    height: 31px;
+    width: 86px;
+}
+.gbanker-footer .footer_wx {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/static/images/home_footer_wx.png") no-repeat scroll 0 -36px;
+    float: left;
+    height: 36px;
+    margin-left: 26px;
+    width: 36px;
+}
+.gbanker-footer .footer_wx:hover {
+    background-position: 0 0;
+}
+.gbanker-footer .footer_wb {
+    background: rgba(0, 0, 0, 0) url("../img/home_footer_wb.png") no-repeat scroll 0 -36px;
+    float: left;
+    height: 36px;
+    margin-left: 34px;
+    width: 36px;
+}
+.gbanker-footer .footer_wb:hover {
+    background-position: 0 0;
+}
+.gbanker-footer .footer_nt {
+    background: rgba(0, 0, 0, 0) url("../img/home_footer_nt.png") no-repeat scroll 0 0;
+    float: right;
+    height: 32px;
+    margin-right: 10px;
+    width: 60px;
+}
+.gbanker-footer .footer_nt:hover {
+    background: rgba(0, 0, 0, 0) url("../img/home_footer_nt.png") no-repeat scroll 0 -39px;
+    height: 32px;
+    width: 60px;
+}
+.gbanker-gold-price {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/static/images/account_bar.png") no-repeat scroll 0 0;
+    height: 30px;
+    margin: 0 auto;
+    position: relative;
+    width: 1004px;
+    z-index: 10;
+}
+.gbanker-gold-price .row {
+    position: relative;
+}
+.gbanker-gold-price .price-update {
+    color: #fff;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 9px;
+    position: absolute;
+    right: 0;
+    top: -5px;
+    width: 268px;
+}
+.gbanker-gold-price .price-update .price-update-logo {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/static/images/account_button_new.png") no-repeat scroll -16px -10px;
+    height: 18px;
+    margin-right: 5px;
+    margin-top: 11px;
+    width: 19px;
+}
+.gbanker-gold-price .price-update .update-unit {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/static/images/account_unit.png") no-repeat scroll 0 0;
+    color: #fff;
+    margin-top: 9px;
+    padding: 2px 10px;
+    text-align: center;
+}
+.gbanker-gold-price .price-update .unit1 {
+    padding: 2px 18px;
+}
+.gbanker-gold-price .price-update dd, .gbanker-gold-price .price-update dl {
+    margin: 0;
+}
+.gbanker-gold-price .price-update .number {
+    color: #ffe851;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 15px;
+    text-align: right;
+    width: 75px;
+}
+.gbanker-gold-price .price-update .spec {
+    color: #fff;
+}
+table {
+    width: 100%;
+}
+table th {
+    font-weight: normal;
+    line-height: 28px;
+    text-align: left;
+}
+table td, table th {
+    border-collapse: collapse;
+}
+table.stripe {
+    border: 1px solid #d6d6d6;
+    border-spacing: 0;
+}
+table.stripe .rightth {
+    text-align: right;
+}
+table.stripe .righttd {
+    padding-right: 26px;
+    text-align: right;
+}
+table.stripe td, table.stripe th {
+    line-height: 40px;
+    padding: 0 20px;
+}
+table.stripe th {
+    line-height: 30px;
+}
+table.stripe thead {
+    background: #d3be99 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 14px;
+}
+table.stripe tbody tr.even {
+    background: white none repeat scroll 0 0;
+}
+table.stripe tbody tr:nth-child(2n) {
+    background: #fafafa none repeat scroll 0 0;
+}
+table.basic {
+    border: 1px solid #d3d3d3;
+}
+table.basic thead {
+    background: #f8f8f8 none repeat scroll 0 0;
+    border-bottom: 1px solid #d3d3d3;
+}
+table.basic thead th {
+    text-align: center;
+}
+table.basic tbody td {
+    border-right: 1px solid #d3d3d3;
+    line-height: 2em;
+    text-align: center;
+}
+table.basic tbody td:last-child {
+    border: 0 none;
+}
+.page {
+    float: right;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.page span {
+    margin-left: 10px;
+}
+.page a {
+    margin-left: 10px;
+}
+.null {
+    margin-top: 15px;
+}
+.tabs {
+    margin-bottom: 30px;
+}
+.tabs .tab-items {
+    margin: 0;
+    padding: 0;
+}
+.tabs .tab-items::after, .tabs .tab-items::before {
+    content: " ";
+    display: table;
+}
+.tabs .tab-items::after {
+    clear: both;
+}
+.tabs .tab-items .tab-item {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fafafa none repeat scroll 0 0;
+    border-color: #cecece #cecece #cecece -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px 0;
+    color: #cecece;
+    float: left;
+    padding: 8px 15px;
+    position: relative;
+    top: 1px;
+    z-index: 10;
+}
+.tabs .tab-items .tab-item:first-child {
+    border-left: 1px solid #cecece;
+}
+.tabs .tab-items .tab-item.active {
+    background: #fff none repeat scroll 0 0;
+    border-bottom-color: #fff;
+}
+.tabs .tab-items .tab-item.active a {
+    color: #000;
+}
+.tabs .tab-content {
+    border: 1px solid #cecece;
+    line-height: 40px;
+    padding: 10px 15px;
+}
+.tabs .tab-content dt {
+    clear: left;
+}
+.tabs .tab-content dd, .tabs .tab-content dd ul {
+    margin: 0;
+}
+.modal {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 5px;
+    left: 50%;
+    margin-left: -400px;
+    padding-bottom: 70px;
+    position: fixed;
+    top: 10%;
+    width: 800px;
+    z-index: 21;
+}
+.modal .modal-close {
+    background-image: url("https://www.g-banker.com/static/images/dialog_close.png");
+    background-repeat: no-repeat;
+    display: block;
+    height: 24px;
+    position: absolute;
+    right: 18px;
+    top: 18px;
+    width: 24px;
+}
+.modal-mask {
+    background: #7f7f7f none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+}
+.dialog_mask {
+    background: #939393 none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+}
+.dialog {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border-radius: 5px;
+    left: 50%;
+    margin-left: -217px;
+    position: fixed;
+    top: 50%;
+    width: 434px;
+    z-index: 21;
+}
+.dialog .content {
+    padding: 10px;
+}
+.dialog .content .title {
+    height: 31px;
+    overflow: hidden;
+    position: relative;
+}
+.dialog .content .title .close {
+    background-image: url("https://www.g-banker.com/static/images/dialog_close.png");
+    background-repeat: no-repeat;
+    display: block;
+    height: 24px;
+    position: absolute;
+    right: 18px;
+    width: 24px;
+}
+a.couponRule {
+    color: #ffa900;
+}
+.dialog .content .title span {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 31px;
+}
+.dialog .content .tips {
+    font-size: 16px;
+    padding: 20px 0;
+    text-align: center;
+}
+.dialog .content .action a {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/static/images/account_button_new.png") no-repeat scroll -275px -29px;
+    color: #000;
+    display: inline-block;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 150px;
+    text-align: center;
+    width: 90px;
+}
+.register_title {
+    float: left;
+    margin-left: 30px;
+    overflow: hidden;
+}
+.register_bar {
+    background-color: #e4e4e4;
+    float: left;
+    height: 45px;
+    margin-top: 38px;
+    width: 2px;
+}
+.register_rg {
+    color: black;
+    float: left;
+    font-size: 35px;
+    margin: 8px 0 0 25px;
+}
+.inline.clearfix .client_out_img {
+    border-color: transparent transparent transparent #e4e4e4;
+    border-left: 1px solid #e4e4e4;
+    display: inline-block;
+    padding-left: 4px;
+    position: absolute;
+    right: 48px;
+    top: 15px;
+}
+.inline.clearfix dl {
+    padding: 0 10px 0 20px;
+}
+.download_client {
+    border-color: transparent;
+    left: 15px;
+    position: absolute;
+    top: 10px;
+}
+.ceil_out {
+    margin-left: 25px;
+}
+.footer_wxUp {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/static/images/shared/footer_wxUp.png") no-repeat scroll 0 0;
+    display: none;
+    height: 198px;
+    left: 44px;
+    position: absolute;
+    top: -200px;
+    width: 158px;
+    z-index: 11;
+}

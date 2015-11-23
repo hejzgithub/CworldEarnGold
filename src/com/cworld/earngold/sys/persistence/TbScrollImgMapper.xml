@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "mybatis-3-mapper.dtd" >
+<mapper namespace="com.cworld.earngold.sys.persistence.TbScrollImgMapper" >
+
+  <select id="selectByPrimaryKey" resultType="TbScrollImg" >
+    select scroll_img_id ,scroll_img_name ,scroll_img_path from tb_scroll_img where  scroll_img_id = #{scroll_img_id} and　is＿del = 0
+  </select>
+  
+  <select id="search" resultType="TbScrollImg">
+    select scroll_img_id ,scroll_img_name ,scroll_img_path from tb_scroll_img where is_del = 0
+  </select>
+  
+  <select id="searchAll" resultType="TbScrollImg">
+    select scroll_img_id ,scroll_img_name ,scroll_img_path from tb_scroll_img where is_del = 0 order by create_date desc
+  </select>
+  
+  <insert id="insert" parameterType="com.cworld.earngold.sys.domain.TbScrollImg" useGeneratedKeys="true" >
+    insert into tb_scroll_img (scroll_img_name ,scroll_img_path ,is_del,create_date ) values (#{scroll_img_name},#{scroll_img_path},0,curdate())
+  </insert>
+  
+  <delete id="deleteByPrimaryKey">
+    update tb_scroll_img set is_del = 1, update_date = curdate() where  scroll_img_id = #{scroll_img_id} 
+  </delete>
+  
+  <update id="updateByPrimaryKey" parameterType="com.cworld.earngold.sys.domain.TbScrollImg" >
+    update tbScroll_img set scroll_img_name = #{scroll_img_name},scroll_img_path = #{scroll_img_path},update_date = curdate() where  scroll_img_id = #{scroll_img_id}
+  </update>
+  
+</mapper>

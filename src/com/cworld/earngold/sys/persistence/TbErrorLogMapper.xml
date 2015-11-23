@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "mybatis-3-mapper.dtd" >
+<mapper namespace="com.cworld.earngold.sys.persistence.TbErrorLogMapper" >
+
+  <select id="selectByPrimaryKey" resultType="TbErrorLog" >
+    select error_log_id ,error_log_date ,error_log_type ,error_log_message ,error_log_class ,error_log_method ,error_log_parmas from tb_errorLog where  error_log_id = #{error_log_id} and is_del = 0
+  </select>
+  
+  <select id="search" resultType="TbErrorLog">
+    select error_log_id ,error_log_date ,error_log_type ,error_log_message ,error_log_class ,error_log_method ,error_log_parmas from tb_errorLog where is_del = 0
+  </select>
+  
+  <insert id="insert" parameterType="com.cworld.earngold.sys.domain.TbErrorLog" useGeneratedKeys="true" >
+    insert into tb_errorLog (error_log_date ,error_log_type ,error_log_message ,error_log_class ,error_log_method ,error_log_parmas ,create_date,is_del) values (#{error_log_date},#{error_log_type},#{error_log_message},#{error_log_class},#{error_log_method},#{error_log_params},curdate(),0)
+  </insert>
+  
+  <delete id="deleteByPrimaryKey">
+    update tb_errorLog set is_del = 1 where  error_log_id = #{error_log_id}
+  </delete>
+  
+  <update id="updateByPrimaryKey" parameterType="com.cworld.earngold.sys.domain.TbErrorLog" >
+    update tb_errorLog set error_log_date = #{error_log_date},error_log_type = #{error_log_type},error_log_message = #{error_log_message},error_log_class = #{error_log_class},error_log_method = #{error_log_method},error_log_params = #{error_log_params} where  error_log_id = #{error_log_id}
+  </update>
+  
+</mapper>

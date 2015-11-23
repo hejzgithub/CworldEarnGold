@@ -1,0 +1,17 @@
+.ui-loader {
+	display: none;
+}
+
+.scrollNews {
+	width: 100%;
+	overflow: hidden;
+}
+
+.scrollNews ul {
+	width: 600%;
+}
+
+.scrollNews li {
+	float: left;
+	display: inline;
+}

@@ -1,0 +1,418 @@
+@CHARSET "UTF-8";
+
+form fieldset .content .input-group .refresh {
+    cursor: pointer;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 17px;
+    width: 60px;
+}
+form fieldset .content .input-group .refresh button {
+    background: #fe9711 none repeat scroll 0 0;
+    border-radius: 5px;
+    display: block;
+    line-height: 40px;
+    padding: 0;
+    width: 60px;
+}
+form .alert {
+    color: red;
+    display: none;
+    float: left;
+    padding: 10px 0 0 10px;
+    width: 220px;
+}
+form fieldset .content .action {
+    margin-bottom: 101px;
+    padding-top: 30px;
+}
+form .alert .codeicon {
+    background: rgba(0, 0, 0, 0) url("/statics/images/user_prompt.png") no-repeat scroll 0 0;
+    float: left;
+    height: 16px;
+    margin-right: 5px;
+    width: 16px;
+}
+form fieldset .content .unit button.code_get {
+    background: #fe9711 none repeat scroll 0 0;
+    border-radius: 5px;
+    display: block;
+    line-height: 40px;
+    padding: 0;
+    width: 109px;
+}
+form fieldset .content .agreement {
+    float: left;
+    margin-left: 121px;
+    width: 275px;
+}
+form fieldset .agreement input {
+    margin-right: 6px;
+    width: 10px;
+}
+form fieldset .agreement a {
+    color: #fe9711;
+}
+form fieldset .content .action button {
+    background: #fe9711 none repeat scroll 0 0;
+    border-radius: 5px;
+    display: block;
+    line-height: 40px;
+    margin-left: 123px;
+    padding: 0;
+    width: 259px;
+}
+form .yuyin .yuyinCode {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 125px;
+}
+form .yuyin .yuyinCode span {
+    color: #fe9711;
+    cursor: pointer;
+}
+form fieldset .lock-info {
+    background-color: #faf9f5;
+    display: none;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 350px;
+}
+.input-group input {
+    width: 259px;
+}
+.codeImgDiv img {
+    border: 1px solid #bebebe;
+    height: 38px;
+    width: 92px;
+}
+.gbanker-reg {
+    margin-bottom: 107px;
+    margin-top: 78px;
+}
+.gbanker-reg form legend {
+    background: rgba(0, 0, 0, 0) url("/statics/images/user/user_reg_step.png") no-repeat scroll 0 0;
+    height: 64px;
+    overflow: hidden;
+    text-indent: -999999px;
+    width: 100%;
+}
+.gbanker-reg form fieldset {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #e8e8e8 -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-style: solid none none;
+    border-width: 1px 0 0;
+    width: 100%;
+}
+.gbanker-reg form fieldset .content {
+    margin: 85px 59px 92px 312px;
+    width: 600px;
+}
+.gbanker-password-recovery form fieldset .content {
+    margin: 85px 59px 92px 260px;
+    width: 620px;
+}
+.gbanker-reg form fieldset .content input.half {
+    width: 120px;
+}
+.gbanker-reg form fieldset .content p {
+    color: red;
+    float: right;
+    padding: 0 15px;
+}
+.gbanker-reg form fieldset .content .code {
+    margin-left: 10px;
+}
+.gbanker-reg form fieldset .content .code a {
+    border-bottom: 1px solid #595959;
+    color: #595959;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.login-banner {
+    height: 620px;
+}
+.gbanker-login {
+    background: #fff none repeat scroll 0 0;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.gbanker-login form {
+    border: 1px solid #dedede;
+    padding: 40px 70px 30px 60px;
+    width: 285px;
+}
+.gbanker-login form .error {
+    color: red;
+    display: none;
+    position: absolute;
+}
+.gbanker-login form .input-icon-group input {
+    width: 195px;
+}
+.gbanker-login form .input-icon-group label {
+    line-height: inherit;
+}
+.gbanker-login form legend h2 {
+    font-size: 18px;
+}
+.gbanker-login form .find-password {
+    margin-top: 40px;
+}
+.gbanker-login form .link-find-password {
+    display: block;
+    font-size: 14px;
+    text-align: right;
+}
+.gbanker-login form .actions {
+    line-height: 40px;
+}
+.gbanker-login form .actions .button, .gbanker-login form .actions button {
+    padding: 0;
+}
+.gbanker-login form .actions .button-alpha {
+    background: #fe9711 none repeat scroll 0 0;
+    border: 0 none;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-family: "Microsoft YaHei",Arial,SansSerif;
+    height: 40px;
+    text-align: center;
+    width: 200px;
+}
+.gbanker-login form .actions .button-beta {
+    color: #ff4e00;
+    padding-left: 25px;
+}
+.gbanker-login form .security-info {
+    background: rgba(0, 0, 0, 0) url("/statics/images/user_shield.png") no-repeat scroll 0 6px;
+    clear: both;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 50px;
+    padding-left: 40px;
+}
+.gbanker-reg-step-1 form legend {
+    background-position: 0 0;
+}
+.gbanker-reg-step-1 form legend {
+    background-position: 0 -63px;
+}
+.gbanker-reg-step-3 form legend {
+    background-position: 0 -127px;
+}
+.gbanker-reg form fieldset .content {
+    margin-left: 260px;
+    width: 620px;
+}
+.gbanker-reg-step-1 form .input-group .unit:first-child {
+    text-align: right;
+    width: 125px;
+}
+.gbanker-reg-step-1 form label {
+    line-height: 40px;
+}
+.gbanker-reg-step-1 form input[disabled] {
+    border: 0 none;
+    padding-left: 0;
+    padding-right: 0;
+}
+.gbanker-reg-step-1 form .info {
+    color: #595959;
+    padding-left: 10px;
+}
+.gbanker-reg-step-1 form .info a {
+    border-bottom: 1px solid #595959;
+}
+.gbanker-reg-step-3 .content {
+    background: rgba(0, 0, 0, 0) url("/statics/images/user_reg_tick.png") no-repeat scroll 0 0;
+    font-size: 16px;
+    text-align: center;
+}
+.gbanker-reg-step-3 .content .alert {
+    height: 160px;
+    margin-left: 140px;
+    padding-top: 7px;
+    width: 240px;
+}
+.gbanker-reg-step-3 .content h3 {
+    color: gray;
+    font-size: 14px;
+    margin: 0 0 28px;
+}
+.gbanker-reg-step-3 .content h3 span {
+    color: #000;
+}
+.gbanker-reg-step-3 .content h3.success {
+    color: #000;
+    font-size: 26px;
+}
+.gbanker-reg-step-3 .content a {
+    background: #fe9711 none repeat scroll 0 0;
+    color: #fff;
+    font-weight: bolder;
+}
+.login-wrapper .intro {
+    height: 372px;
+    margin-top: 106px;
+    width: 586px;
+}
+.login-wrapper .intro .before {
+    background: rgba(0, 0, 0, 0) url("/statics/images/login_before.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    float: left;
+    height: 36px;
+    margin-left: 180px;
+    margin-top: 115px;
+    width: 21px;
+}
+.login-wrapper .intro .image {
+    float: left;
+    height: 260px;
+    margin-top: 64px;
+    width: 220px;
+}
+.login-wrapper .intro .image .active {
+    z-index: 2;
+}
+.login-wrapper .intro .image1 {
+    background: rgba(0, 0, 0, 0) url("/statics/images/login_1.png") no-repeat scroll 0 0;
+    height: 260px;
+    opacity: 1;
+    position: absolute;
+    width: 220px;
+    z-index: 1;
+}
+.login-wrapper .intro .image2 {
+    background: rgba(0, 0, 0, 0) url("/statics/images/login_2.png") no-repeat scroll 0 0;
+    height: 260px;
+    opacity: 1;
+    position: absolute;
+    width: 220px;
+    z-index: 1;
+}
+.login-wrapper .intro .image3 {
+    background: rgba(0, 0, 0, 0) url("/statics/images/login_3.png") no-repeat scroll 0 0;
+    height: 260px;
+    opacity: 1;
+    position: absolute;
+    width: 220px;
+    z-index: 1;
+}
+.login-wrapper .intro .after {
+    background: rgba(0, 0, 0, 0) url("/statics/images/login_after.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    float: left;
+    height: 36px;
+    margin-top: 115px;
+    width: 21px;
+}
+.gbanker-password-recovery {
+    margin-bottom: 107px;
+    margin-top: 85px;
+}
+.gbanker-password-recovery form legend {
+    background: rgba(0, 0, 0, 0) url("/statics/images/user/user_recovery_step.png") no-repeat scroll 0 0;
+    height: 64px;
+    overflow: hidden;
+    text-indent: -999999px;
+    width: 1004px;
+}
+.recovery1 form legend {
+    background-position: 0 0;
+}
+.recovery2 form legend {
+    background-position: 0 -64px;
+}
+.recovery3 form legend {
+    background-position: 0 -64px;
+}
+.gbanker-password-recovery form legend h2 {
+    font-size: 18px;
+    line-height: 30px;
+}
+.gbanker-password-recovery .input-group .unit:first-child {
+    text-align: right;
+    width: 125px;
+}
+.gbanker-password-recovery .input-group .action-get-code {
+    background: rgba(0, 0, 0, 0) url("/statics/images/user_verify_bg.png") no-repeat scroll 0 0;
+    display: block;
+    font-size: 12px;
+    line-height: 40px;
+    margin-left: 15px;
+    padding: 0;
+    width: 92px;
+}
+.gbanker-password-recovery .input-group .get-code .action-get-code.disabled {
+    border-color: gray;
+}
+.gbanker-password-recovery .actions {
+    margin: 30px 0 0 125px;
+}
+.gbanker-password-recovery .actions button {
+    background: #fe9711 none repeat scroll 0 0;
+    font-size: 16px;
+    width: 259px;
+}
+.gbanker-password-recovery .detail {
+    margin: 70px 0 30px 300px;
+    padding: 15px 0 80px 150px;
+}
+.gbanker-password-recovery .final {
+    background: rgba(0, 0, 0, 0) url("/statics/images/trade_success_tick.png") no-repeat scroll 0 0;
+}
+.gbanker-password-recovery .detail h2 {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: -10px;
+}
+.regdoc .title {
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+}
+.regdoc .title2 {
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 34px;
+}
+.gbanker-reg-step-1 form .input-group .unit .call {
+    background: #f3f3f3 none repeat scroll 0 0;
+    display: none;
+    line-height: 34px;
+    padding: 10px 42px 10px 10px;
+}
+.gbanker-reg-step-1 form .input-group .unit .call span {
+    color: #fe8111;
+    margin-left: 10px;
+}
+.gbanker-password-recovery .input-group .unit .yuyinCode {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.gbanker-password-recovery .input-group .unit .yuyinCode span {
+    color: #fe9711;
+    cursor: pointer;
+}
+.gbanker-password-recovery .input-group .unit .call {
+    background: #f3f3f3 none repeat scroll 0 0;
+    display: none;
+    line-height: 34px;
+    padding: 10px 42px 10px 10px;
+}
+.gbanker-password-recovery .input-group .unit .call span {
+    color: #fe8111;
+    margin-left: 10px;
+}

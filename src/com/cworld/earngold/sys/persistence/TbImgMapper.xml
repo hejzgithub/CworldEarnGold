@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "mybatis-3-mapper.dtd" >
+<mapper namespace="com.cworld.earngold.sys.persistence.TbImgMapper" >
+
+  <select id="selectByPrimaryKey" resultType="TbImg" >
+    select img_id ,img_name ,img_path from tb_img where  img_id = #{img_id} and is_del = 0
+  </select>
+  
+  <select id="search" resultType="TbImg">
+    select img_id ,img_name ,img_path from tb_img where is_del =0
+  </select>
+  
+  <insert id="insert" parameterType="com.cworld.earngold.sys.domain.TbImg" useGeneratedKeys="true" >
+    insert into tb_img (img_name ,img_path ,is_del ,create_date) values (#{img_name},#{img_path},0,curdate())
+  </insert>
+  
+  <delete id="deleteByPrimaryKey">
+    update tb_img set is_del = 1 where img_id = #{img_id}
+  </delete>
+  
+  <update id="updateByPrimaryKey" parameterType="com.cworld.earngold.sys.domain.TbImg" >
+    update tb_img set img_name = #{img_name},img_path = #{img_path},update_date = curdate() where  img_id = #{img_id}
+  </update>
+  
+</mapper>
