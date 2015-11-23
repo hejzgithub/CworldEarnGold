@@ -13,7 +13,7 @@ import com.cworld.earngold.sys.service.TbErrorLogService;
 public class TbErrorLogServiceImpl implements TbErrorLogService {
 
 	@Resource
-	private TbErrorLogMapper tbErrorLogMapper;
+	private TbErrorLogMapper tbErrorLogMapper;    
 	
 	public TbErrorLog searchById(Integer error_log_id){
 		return tbErrorLogMapper.selectByPrimaryKey(error_log_id);
