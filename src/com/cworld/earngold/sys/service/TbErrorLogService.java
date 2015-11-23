@@ -12,6 +12,6 @@ public interface TbErrorLogService {
 
 	int update(TbErrorLog tbErrorLog);
 	
-	int delete(Integer error_log_id);
+	int delete(Integer error_log_id);   
 	
 }
