@@ -1,0 +1,1 @@
+$(function(){$.ajax({type:"POST",url:"/account/getAccountMoney",dataType:"json",success:function(a,b){"0000"==a.code&&($("#accountMoney").html((a.accountMoney/100).toFixed(2)),0<a.freezeMoney&&$("#freezeLogo").show())}})});

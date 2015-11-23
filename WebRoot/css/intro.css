@@ -1,0 +1,581 @@
+.gbanker-intro .intro_banner {
+	background: #3e332a;
+}
+
+.gbanker-intro .content .word {
+	width: 602px;
+	margin-top: 100px;
+	margin-left: 65px;
+	color: #cfccca;
+	float: left;
+	letter-spacing: 1.5px;
+}
+
+.gbanker-intro  .content .image {
+	float: left;
+	margin-top: 243px;
+	position: relative;
+}
+
+.gbanker-intro .intro_banner .content {
+	background: #3e332a;
+	height: 511px;
+}
+
+.gbanker-intro .intro_banner .content .word {
+	margin-left: 70px;
+}
+
+.gbanker-intro .intro_banner .content .word h2 {
+	font-size: 30px;
+	color: #fff;
+	margin-bottom: 40px;
+}
+
+.gbanker-intro .intro_banner .content .word span {
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+.gbanker-intro .intro_banner .content .word ul {
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+.gbanker-intro .intro_banner .content .word ul li {
+	margin-bottom: 10px;
+}
+
+.gbanker-intro .intro_banner .content .word ul .info {
+	color: #ffcb2c;
+	font-weight: bold;
+}
+
+.gbanker-intro .intro_banner .content .image div {
+	transition: all 0.8s ease 0.8s;
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	opacity: 0;
+}
+
+.gbanker-intro .intro_banner .content .image {
+	margin-top: 190px;
+}
+
+.gbanker-intro .intro_banner .content .part1 div {
+	opacity: 1;
+}
+
+.gbanker-intro .intro_banner .content .part1 .bg3 {
+	transition: all 0.5s ease 0.5s;
+}
+
+.gbanker-intro .intro_banner .content .part1 .bg2 {
+	transition: all 1s ease 1s;
+}
+
+.gbanker-intro .intro_banner .content .part1 .bg4 {
+	transition: all 1s ease 1s;
+}
+
+.gbanker-intro .intro_banner .content .part1 .bg5 {
+	transition: all 1s ease 1s;
+}
+
+.gbanker-intro .intro_banner .content .image .bg1 {
+	background: url(/statics/images/intro_banner.png) no-repeat;
+	width: 308px;
+	height: 208px;
+}
+
+.gbanker-intro .intro_banner .content .image .bg2 {
+	background: url(/statics/images/intro_jiandan.png) no-repeat;
+	width: 67px;
+	height: 68px;
+	position: absolute;
+	top: -15px;
+	left: 214px;
+}
+
+.gbanker-intro .intro_banner .content .part1 .bg2 {
+	top: 0px;
+	left: 234px;
+}
+
+.gbanker-intro .intro_banner .content .image .bg3 {
+	background: url(/statics/images/intro_gbanker.png) no-repeat;
+	width: 129px;
+	height: 129px;
+	position: absolute;
+	top: 25px;
+	left: 70px;
+	z-index: 102;
+}
+
+.gbanker-intro .intro_banner .content .part1 .bg3 {
+	top: 25px;
+	left: 70px;
+}
+
+.gbanker-intro .intro_banner .content .image .bg4 {
+	background: url(/statics/images/intro_dikan.png) no-repeat;
+	width: 65px;
+	height: 65px;
+	position: absolute;
+	top: 107px;
+	left: 0px;
+	z-index: 101;
+}
+
+.gbanker-intro .intro_banner .content .part1 .bg4 {
+	top: 87px;
+	left: 20px;
+}
+
+.gbanker-intro .intro_banner .content .image .bg5 {
+	background: url(/statics/images/intro_gaoxi.png) no-repeat;
+	width: 88px;
+	height: 88px;
+	z-index: 103;
+	position: absolute;
+	top: 63px;
+	left: 192px;
+}
+
+.gbanker-intro .intro_banner .content .part1 .bg5 {
+	top: 83px;
+	left: 172px;
+}
+
+.gbanker-intro .intro_intro .content .price_tab {
+	height: 377px;
+	border-bottom: 1px solid #d3d3d3;
+	margin-left: 65px;
+}
+
+.gbanker-intro .intro_intro .content .price_tab .image {
+	margin-top: 104px;
+}
+
+.gbanker-intro .intro_intro .content .price_tab .image .pricelogo {
+	background: url(/statics/images/intro_price.png) no-repeat;
+	width: 13px;
+	height: 13px;
+	margin-left: -3px;
+}
+
+.gbanker-intro .intro_intro .content .price_tab .image .name {
+	font-size: 16px;
+	color: #a58051;
+	margin-top: 85px;
+	width: 68px;
+	float: left;
+	text-align: right;
+	padding-right: 23px;
+}
+
+.gbanker-intro .intro_intro .content .price_tab .image .split {
+	border-right: 1px solid #6d5219;
+	height: 273px;
+	width: 3px;
+	float: left;
+}
+
+.gbanker-intro .intro_intro .content .price_tab .image .price {
+	float: left;
+	overflow: hidden;
+	position: relative;
+	width: 176px;
+	height: 273px;
+}
+
+.gbanker-intro .intro_intro .content .price_tab .image .price .title {
+	margin-left: 14px;
+	margin-bottom: 52px;
+}
+
+.gbanker-intro .intro_intro .content .price_tab .image .price div {
+	margin-bottom: 17px;
+}
+
+.gbanker-intro .intro_intro .content .price_tab .image .price div span {
+	position: absolute;
+	right: 10px;
+	top: 5px;
+	color: #000;
+}
+
+.gbanker-intro .intro_intro .content .price_tab .image .price .list {
+	position: absolute;
+	left: -157px;
+}
+
+.gbanker-intro .intro_intro .content .price_tab .image .price .list div
+	{
+	transition: all 0.8s ease 0.8s;
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	opacity: 0;
+}
+
+.gbanker-intro .intro_intro .content .price_tab .image .price .list .qianbao
+	{
+	height: 20px;
+	background: url(/statics/images/intro_qianbao.png) no-repeat;
+	position: relative;
+	left: 32px;
+	width: 124.17px;
+}
+
+.gbanker-intro .intro_intro .content .price_tab .image .price .list .qianbao span
+	{
+	color: #fff;
+}
+
+.gbanker-intro .intro_intro .content .price_tab .image .price .list .other1
+	{
+	height: 20px;
+	background: #ffcb2c;
+	position: relative;
+	width: 156px;
+	left: 0px;
+}
+
+.gbanker-intro .intro_intro .content .price_tab .image .price .list .other2
+	{
+	height: 20px;
+	background: #ffcb2c;
+	position: relative;
+	width: 149px;
+	left: 7px;
+}
+
+.gbanker-intro .intro_intro .content .price_tab .image .price .list .other3
+	{
+	height: 20px;
+	background: #ffcb2c;
+	position: relative;
+	width: 150.5px;
+	left: 5px;
+}
+
+.gbanker-intro .intro_intro .content .price_tab .image .price .list .other4
+	{
+	height: 20px;
+	background: #ffcb2c;
+	position: relative;
+	width: 156px;
+	left: 0px;
+}
+
+.gbanker-intro .intro_intro .content .price_tab .image .price .part2 .qianbao
+	{
+	left: 157px;
+}
+
+.gbanker-intro .intro_intro .content .price_tab .image .price .part2 .other1
+	{
+	left: 157px;
+}
+
+.gbanker-intro .intro_intro .content .price_tab .image .price .part2 .other2
+	{
+	left: 157px;
+}
+
+.gbanker-intro .intro_intro .content .price_tab .image .price .part2 .other3
+	{
+	left: 157px;
+}
+
+.gbanker-intro .intro_intro .content .price_tab .image .price .part2 .other4
+	{
+	left: 157px;
+}
+
+.gbanker-intro .intro_intro .content .price_tab .image .price .list .compare
+	{
+	background: url(/statics/images/intro_compare.png) no-repeat;
+	position: absolute;
+	top: -252px;
+	left: 279px;
+	width: 1px;
+	height: 187px;
+}
+
+.gbanker-intro .intro_intro .content .price_tab .image .price .part2 .compare
+	{
+	top: 22px;
+	left: 279px;
+	transition: all 1s ease 1s;
+}
+
+.gbanker-intro .intro_intro .content .price_tab .image .unit {
+	position: absolute;
+	top: 281px;
+	left: 195px;
+}
+
+.gbanker-intro .intro_intro .content .price_tab .image .name li {
+	height: 20px;
+	margin-bottom: 17px;
+	font-size: 12px;
+}
+
+.gbanker-intro .intro_intro .content .price_tab .image .price .part2 div
+	{
+	opacity: 1;
+}
+
+.gbanker-intro .intro_intro .content .price_tab .word h2 {
+	font-size: 36px;
+	color: #714003;
+}
+
+.gbanker-intro .intro_intro .content .price_tab .word p {
+	font-size: 16px;
+	color: #a58051;
+}
+
+.gbanker-intro .intro_intro .content .price_tab .word .info {
+	color: #ff8b74;
+	font-weight: bold;
+}
+
+.gbanker-intro .intro_intro .content .gold_tab {
+	border-bottom: 1px solid #d3d3d3;
+	height: 434px;
+}
+
+.gbanker-intro .intro_intro .content .gold_tab .word h2 {
+	font-size: 36px;
+	color: #714003;
+}
+
+.gbanker-intro .intro_intro .content .gold_tab .word p {
+	font-size: 16px;
+	color: #a58051;
+}
+
+.gbanker-intro .intro_intro .content .gold_tab .word .info {
+	color: #ff8b74;
+	font-weight: bold;
+}
+
+.gbanker-intro .intro_intro .content .gold_tab .image div {
+	transition: all 0.8s ease 0.8s;
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	opacity: 0;
+}
+
+.gbanker-intro .intro_intro .content .gold_tab .part3 div {
+	opacity: 1;
+}
+
+.gbanker-intro .intro_intro .content .gold_tab .image .before {
+	background: url(/statics/images/intro_before.png) no-repeat;
+	width: 93px;
+	height: 61px;
+	margin-top: 131px;
+	float: left;
+	position: relative;
+	/* top: 60px; */
+	top: 0px;
+}
+/* .gbanker-intro .intro_intro .content .gold_tab .part3 .before{
+	top:0px;
+} */
+.gbanker-intro .intro_intro .content .gold_tab .image .after {
+	width: 93px;
+	height: 107px;
+	float: left;
+	margin-left: 70px;
+	margin-top: 85px;
+	position: relative;
+	overflow: hidden;
+}
+
+.gbanker-intro .intro_intro .content .gold_tab .image .afterinfo {
+	background: url(/statics/images/intro_after.png) no-repeat;
+	width: 93px;
+	height: 107px;
+	position: relative;
+	top: 50px;
+}
+
+.gbanker-intro .intro_intro .content .gold_tab .part3 .afterinfo {
+	top: 0px;
+}
+
+.gbanker-intro .intro_intro .content .gold_tab .image .say {
+	background: url(/statics/images/intro_say.png) no-repeat;
+	width: 221px;
+	height: 47px;
+	margin-left: -10px;
+	margin-top: 21px;
+	position: relative;
+	top: 20px;
+	left: 20px;
+	transition: all 1.2s ease 1.2s;
+}
+
+.gbanker-intro .intro_intro .content .gold_tab .part3 .say {
+	top: 0px;
+	left: 0px;
+}
+
+.gbanker-intro .intro_intro .content .gold_tab .image .unit1 {
+	position: absolute;
+	top: 204px;
+	/* left: -75px; */
+	font-size: 16px;
+	color: #a58051;
+	left: 25px;
+}
+/* .gbanker-intro .intro_intro .content .gold_tab .part3 .unit1{
+	left: 25px;
+} */
+.gbanker-intro .intro_intro .content .gold_tab .image .unit1 .bg1 {
+	background: url(/statics/images/intro_before_unit.png) no-repeat;
+	width: 52px;
+	height: 23px;
+	margin-top: 4px;
+	display: block;
+}
+
+.gbanker-intro .intro_intro .content .gold_tab .image .unit2 {
+	position: absolute;
+	top: 204px;
+	/* left: 285px; */
+	font-size: 16px;
+	color: #a58051;
+	left: 185px;
+}
+/* .gbanker-intro .intro_intro .content .gold_tab .part3 .unit2{
+	left: 185px;
+} */
+.gbanker-intro .intro_intro .content .gold_tab .image .unit2 .bg2 {
+	background: url(/statics/images/intro_after_unit.png) no-repeat;
+	width: 52px;
+	height: 23px;
+	margin-top: 4px;
+	display: block;
+}
+
+.gbanker-intro .intro_intro .content .interest_tab {
+	height: 475px;
+	margin-left: 65px;
+}
+
+.gbanker-intro .intro_intro .content .interest_tab .image .interest {
+	transition: all 0.8s ease 0.8s;
+	-moz-transform: scale(0.7);
+	-webkit-transform: scale(0.7);
+	transform: scale(0.7);
+	opacity: 0;
+}
+
+.gbanker-intro .intro_intro .content .interest_tab .part4 .interest {
+	transition: all 0.8s ease 0.8s;
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+.gbanker-intro .intro_intro .content .interest_tab .word {
+	margin-top: 154px;
+	width: 558px;
+}
+
+.gbanker-intro .intro_intro .content .interest_tab .word h2 {
+	font-size: 36px;
+	color: #714003;
+}
+
+.gbanker-intro .intro_intro .content .interest_tab .word p {
+	font-size: 16px;
+	color: #a58051;
+}
+
+.gbanker-intro .intro_intro .content .interest_tab .word .info {
+	color: #ff8b74;
+	font-weight: bold;
+}
+
+.gbanker-intro .intro_intro .content .interest_tab .image {
+	margin-top: 184px;
+}
+
+.gbanker-intro .intro_intro .content .interest_tab .image .interest {
+	background: url(/statics/images/intro_interest.png) no-repeat;
+	width: 314px;
+	height: 227px;
+	position: relative;
+	left: -50px;
+	top: -50px;
+}
+
+.gbanker-intro .intro_intro .content .interest_tab .image .interest {
+	left: 0px;
+	top: 0px;
+}
+
+.gbanker-intro .intro_intro .content .save_tab {
+	height: 479px;
+}
+
+.gbanker-intro .intro_intro .content .save_tab .word h2 {
+	font-size: 36px;
+	color: #714003;
+}
+
+.gbanker-intro .intro_intro .content .save_tab .word p {
+	font-size: 16px;
+	color: #a58051;
+}
+
+.gbanker-intro .intro_intro .content .save_tab .word p span {
+	font-weight: bold;
+}
+
+.gbanker-intro .intro_intro .content .save_tab .word .info {
+	color: #ff8b74;
+	font-weight: bold;
+}
+
+.gbanker-intro .intro_intro .content .save_tab .image .save {
+	transition: all 0.8s ease 0.8s;
+	-moz-transform: scale(0.7);
+	-webkit-transform: scale(0.7);
+	transform: scale(0.7);
+	opacity: 0;
+}
+
+.gbanker-intro .intro_intro .content .save_tab .part5 .save {
+	transition: all 0.8s ease 0.8s;
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+.gbanker-intro .intro_intro .content .save_tab .image {
+	margin-top: 100px;
+}
+
+.gbanker-intro .intro_intro .content .save_tab .image .save {
+	background: url(/statics/images/intro_save.png) no-repeat;
+	width: 286px;
+	height: 216px;
+	position: relative;
+	top: -30px;
+}
+
+.gbanker-intro .intro_intro .content .save_tab .part5 .save {
+	top: 0px;
+}

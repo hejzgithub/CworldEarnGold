@@ -1,0 +1,219 @@
+@CHARSET "UTF-8";
+.safe_protect {
+    background-color: #589be2;
+}
+.safeTopBnr {
+    background-image: url("https://www.g-banker.com/statics/images/image_riskSafe/safeTobBnr.png");
+    height: 400px;
+    width: 1004px;
+}
+.security {
+    color: #ffffff;
+    font-size: 72px;
+}
+.sp_left {
+    float: left;
+    padding: 75px 0 0 52px;
+}
+.why_words {
+    color: #d3e8ff;
+    font-family: "Microsoft YaHei",Arial,SansSerif;
+    font-size: 30px;
+    font-style: normal;
+    margin: 25px 0 16px;
+}
+.know_detail {
+    cursor: pointer;
+    height: 48px;
+    width: 150px;
+}
+.lendBenefit {
+    background: #ffffff none repeat scroll 0 0;
+}
+.get_Benefit {
+    color: #7d6248;
+    font-family: "Microsoft YaHei";
+    font-size: 26px;
+    padding: 42px 0 52px;
+    width: 1004px;
+}
+.get_Benefit p {
+    margin: 0 auto;
+    text-align: center;
+    width: 600px;
+}
+.lend_picture {
+    float: left;
+    padding-bottom: 70px;
+}
+.picture_one {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+    float: left;
+    height: 348px;
+    padding: 0 15px;
+    width: 278px;
+}
+.picture_one .one {
+    margin: 14px 0 9px;
+}
+.picture_one .bar {
+    background-color: #cacaca;
+    height: 1px;
+    margin: 0 auto;
+}
+.words {
+    color: #7d6248;
+    font-family: "Microsoft YaHei";
+    font-size: 15px;
+    line-height: 2em;
+    padding-top: 29px;
+}
+.picture_two {
+    margin: 0 37px;
+}
+.survey_score_guarantee {
+    margin-bottom: 50px;
+}
+.eightSafe {
+    background-color: #fbfbfb;
+}
+.eightSafe_number {
+    margin-bottom: 54px;
+}
+.eightSafe_news {
+    color: #b3a596;
+    font-size: 14px;
+}
+.credit_middle {
+    background-color: #ffffff;
+}
+.credit_middle .credit_picture {
+    border: 1px solid #b6b6b6;
+    float: left;
+}
+.creadit_p {
+    height: 243px;
+    margin-bottom: 37px;
+}
+.credit_picture_678 {
+    margin-bottom: 60px;
+}
+.process_guarantee {
+    background-color: #fbfbfb;
+    padding-bottom: 72px;
+}
+.process {
+    height: 80px;
+    padding: 0 207px;
+}
+.getlr p {
+    color: #9f8872;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    line-height: 2em;
+    text-align: center;
+    width: 224px;
+}
+.getlr p:first-child {
+    font-size: 22px !important;
+    height: 22px;
+}
+.gold_trade_left {
+    float: left;
+}
+.gold_trade_right {
+    float: right;
+}
+.blank_safe {
+    background-color: #ffffff;
+    margin-bottom: 72px;
+}
+.blank_picture {
+    padding: 0 27px;
+}
+.bs_left {
+    float: left;
+    margin-right: 31px;
+    width: 444px;
+}
+.bs_right {
+    float: right;
+    margin-left: 31px;
+    width: 444px;
+}
+.blankSafe_left {
+    height: 191px;
+    margin-bottom: 33px;
+}
+.gold_time {
+    background-color: #faf5f0;
+}
+.goldTime {
+    color: #7d6248;
+    font-family: "Microsoft YaHei";
+    font-size: 62px;
+    margin-bottom: -37px;
+    text-align: center;
+    width: 1004px;
+}
+.goldTime_zhuce_middle {
+    margin-bottom: 39px;
+    width: 1004px;
+}
+.goldTime_zhuce {
+    font-size: 20px;
+    height: 44px;
+    line-height: 44px;
+    margin: 0 auto;
+    width: 150px;
+}
+.goldTime_zhuce .detail {
+    color: #ecb176;
+    cursor: pointer;
+    float: left;
+    line-height: 5px;
+    padding: 0 7px;
+}
+.qrCode {
+    float: right;
+    height: 233px;
+    width: 233px;
+}
+.qrCode_left {
+    float: left;
+    height: 321px;
+    width: 465px;
+}
+.qrCode_words {
+    color: #7d6248;
+    font-size: 16px;
+    text-align: center;
+}
+.qrCode_right {
+    height: 212px;
+    margin-top: 11px;
+    width: 270px;
+}
+.qrCode_right .apple {
+    cursor: pointer;
+    height: 82px;
+    width: 270px;
+}
+.qrCode_right .android {
+    cursor: pointer;
+    height: 82px;
+    margin-top: 48px;
+    width: 270px;
+}
+.fr {
+    float: right;
+    width: 425px;
+}
+.apple_deep {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/statics/images/image_riskSafe/apple_android_03.png") no-repeat scroll 0 0;
+    height: 82px;
+    width: 270px;
+    z-index: 20;
+}

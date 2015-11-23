@@ -1,0 +1,185 @@
+@CHARSET "UTF-8";
+
+._float {
+    bottom: 90px;
+    position: fixed;
+    right: 20px;
+    z-index: 99999;
+}
+.float_size {
+    background-color: #fff;
+    border: 2px solid #e5e5e5;
+    border-radius: 5px;
+    bottom: 90px;
+    height: 328px;
+    position: fixed;
+    right: 20px;
+    width: 165px;
+    z-index: 99999;
+}
+.priceShow {
+    border-bottom: 1px solid #e5e5e5;
+    display: block;
+    padding-bottom: 47px;
+    padding-top: 32px;
+    width: 100%;
+}
+.priceShow .prices {
+    cursor: pointer;
+}
+.oper_icons {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/statics/images/icon/floats-opera.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    height: 30px;
+    position: absolute;
+    right: -15px;
+    top: -10px;
+    width: 30px;
+}
+.close_icons {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/statics/images/icon/floats-opera.png") no-repeat scroll 0 -30px;
+    cursor: pointer;
+    height: 30px;
+    position: absolute;
+    right: 3px;
+    top: -10px;
+    width: 30px;
+}
+.oper_icons img {
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.priceShow .price {
+    color: #5c636c;
+    display: block;
+    font-size: 30px;
+    margin: 20px auto 0;
+    width: 90px;
+}
+.close_icons img {
+    margin-left: 8px;
+}
+.price_text {
+    color: #747e8a;
+    font-size: 14px;
+    margin: 15px auto 0;
+    width: 100px;
+}
+.float_codes {
+    width: 100%;
+}
+.float_codes .img_container {
+    height: 97px;
+    margin: 20px auto 0;
+    width: 97px;
+}
+.float_size2 {
+    background-color: #fff;
+    border: 2px solid #e5e5e5;
+    border-radius: 4px;
+    bottom: 90px;
+    cursor: pointer;
+    display: none;
+    height: 150px;
+    margin-bottom: 20px;
+    position: fixed;
+    right: 0;
+    width: 75px;
+    z-index: 99999;
+}
+.float_size2 .eval {
+    border-bottom: 1px solid #e5e5e5;
+    width: 100%;
+}
+.thumbnail_01 {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/statics/images/icon/thumbnail_icon.png") no-repeat scroll 0 0;
+    height: 33px;
+    margin: 20px auto;
+    width: 34px;
+}
+.thumbnail_02 {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/statics/images/icon/thumbnail_icon.png") no-repeat scroll 0 -33px;
+    height: 30px;
+    margin: 20px auto;
+    width: 30px;
+}
+.graphs1 {
+    background: rgba(0, 0, 0, 0) url("https://www.g-banker.com/statics/images/icon/gold_bg.png") no-repeat scroll 0 0;
+    border-radius: 5px;
+    display: none;
+    height: 331px;
+    position: absolute;
+    right: 170px;
+    top: 0;
+    width: 351px;
+}
+.graphs-tab1 {
+    background-color: #fdf4de;
+    height: 39px;
+    padding-top: 23px;
+    width: 334px;
+}
+.graphs-tab1 .graphs-tab-item {
+    cursor: pointer;
+    float: left;
+    height: 35px;
+    text-align: center;
+    width: 110px;
+}
+.graphs-tab1 .graphs-tab-item.active {
+    border-bottom: 4px solid #ffaf15;
+}
+.graphs-tab1 .graphs-tab-item:last-child {
+    border-right: 0 none;
+}
+.graphs-tab1 .graphs-tab-item a {
+    border-right: 1px solid #ffaf15;
+    color: #ffaf15;
+    display: inline-block;
+    font-size: 16px;
+    width: 110px;
+}
+.graphs1 .graphs-tab {
+    background-color: #fdf4de;
+    height: 60px;
+    margin: 1px 2px 0 1px;
+    width: 332px;
+}
+.graphs1 .price-update {
+    float: left;
+    margin: 10px 10px 0;
+}
+.graphs1 .price-update span {
+    color: #b6b6b6;
+}
+.graphs1 .price-update .number {
+    color: #ff9800;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.graphs1 #graph {
+    height: 226px;
+    width: 333px;
+}
+.graphs1 .graphs-tab-up1 {
+    border-color: transparent transparent transparent #fff;
+    border-style: dashed dashed dashed solid;
+    border-width: 11px;
+    position: absolute;
+    right: -23px;
+    top: 60px;
+}
+.graphs1 .graphs-tab-up2 {
+    border-color: transparent transparent #fff;
+    border-style: dashed dashed solid;
+    border-width: 11px;
+    position: absolute;
+    top: 86px;
+    z-index: 11;
+}
+.graphs1 .graphs-tab-up3 {
+    left: 211px;
+}
+.graphs1 .graphs-tab-up4 {
+    left: 359px;
+}

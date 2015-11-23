@@ -1,0 +1,112 @@
+@CHARSET "UTF-8";
+.headline-content {
+    margin-bottom: 68px;
+}
+.headline-content .list {
+    margin-top: 70px;
+}
+.list .headline .date {
+    float: left;
+    margin-right: 87px;
+    width: 105px;
+}
+.list .headline .date .logo {
+    background: rgba(0, 0, 0, 0) url("/statics/images/headline_date_logo.png") no-repeat scroll 0 0;
+    height: 4px;
+    margin-bottom: 18px;
+}
+.list .headline .date .new {
+    background: rgba(0, 0, 0, 0) url("/statics/images/headline_date_new.png") no-repeat scroll 0 0;
+    height: 21px;
+    margin-left: 21px;
+}
+.list .headline .date .day {
+    color: #727272;
+    font-size: 36px;
+    text-align: center;
+}
+.list .headline .date .month {
+    color: #737373;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+.list .headline .info {
+    border-bottom: 1px solid #d3d3d3;
+    float: left;
+    margin-bottom: 48px;
+    width: 810px;
+}
+.list .headline .info .title {
+    color: black;
+    font-size: 18px;
+}
+.list .headline .info .time {
+    margin-top: 12px;
+}
+.list .headline .info .time-logo {
+    background: rgba(0, 0, 0, 0) url("/statics/images/headline_info_time.png") no-repeat scroll 0 0;
+    float: left;
+    height: 16px;
+    margin-right: 10px;
+    width: 16px;
+}
+.list .headline .info .summaryDetail {
+    margin-top: 24px;
+}
+.list .headline .info .summary {
+    line-height: 28px;
+}
+.list .headline .info img {
+    margin-top: 20px;
+}
+.list .headline .info .more {
+    margin-bottom: 45px;
+    margin-top: 28px;
+}
+.list .headline .info .more a {
+    color: #e76916;
+}
+.list .headline .detailinfo {
+    float: left;
+    margin-bottom: 48px;
+    width: 810px;
+}
+.list .headline .detailinfo .time {
+    margin-top: 12px;
+}
+.list .headline .detailinfo .time-logo {
+    background: rgba(0, 0, 0, 0) url("/statics/images/headline_info_time.png") no-repeat scroll 0 0;
+    float: left;
+    height: 16px;
+    margin-right: 10px;
+    width: 16px;
+}
+.list .headline .detailinfo .title {
+    color: black;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.list .headline .detailinfo .detail ul {
+    margin-top: 39px;
+}
+.list .headline .detailinfo .detail .title2 {
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+    padding-top: 3px;
+}
+.list .headline .detailinfo .detail .title2-logo {
+    background: rgba(0, 0, 0, 0) url("/statics/images/headline_info_title.png") no-repeat scroll 0 0;
+    float: left;
+    height: 21px;
+    margin-right: 12px;
+    width: 6px;
+}
+.list .headline .detailinfo .detail .summary {
+    line-height: 28px;
+    margin-top: 28px;
+}
+.list .headline .detailinfo img {
+    margin-top: 20px;
+}

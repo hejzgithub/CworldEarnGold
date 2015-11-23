@@ -1,0 +1,595 @@
+@CHARSET "UTF-8";
+
+.row {
+    position: relative;
+}
+.about_circle {
+    color: #ffc881;
+    font-size: 20px;
+}
+.about_intro_icon {
+    background: rgba(0, 0, 0, 0) url("/statics/images/aboutUs/about_intro_icon.png") no-repeat scroll 0 0;
+    float: left;
+    height: 23px;
+    width: 8px;
+}
+.location_banner {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color transparent #fe9711;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: 0 8px 8px;
+    height: 0;
+    left: 50px;
+    line-height: 0;
+    position: absolute;
+    top: 54px;
+    width: 0;
+}
+.about_bg {
+    background-color: #f5f5f5;
+    padding-bottom: 110px;
+    padding-top: 51px;
+}
+.about_us .row ul.about_banner {
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 0 5px #ebebeb;
+    float: left;
+    width: 190px;
+}
+.about_us .row ul.about_banner1 {
+    position: fixed;
+    top: 48px;
+}
+.about_us .row ul.about_banner2 {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+.about_us .row ul.about_banner li {
+    line-height: 63px;
+    padding-left: 30px;
+}
+.about_us .row ul.about_banner a {
+    border-bottom: 2px solid #f5f5f5;
+    display: inline-block;
+    line-height: 63px;
+    width: 190px;
+}
+.about_us .row ul.about_banner li.active {
+    border-left: 6px solid #fe9711;
+    color: #fe9711;
+    padding-left: 24px;
+}
+.about_us .row ul li.active a {
+    color: #fe9711;
+}
+.about_us .row .about_content {
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 0 5px #ebebeb;
+    float: right;
+    min-height: 200px;
+    width: 752px;
+}
+.about_us .row .about_content .about_us_img {
+    background: rgba(0, 0, 0, 0) url("/statics/images/aboutUs/about_us.png") no-repeat scroll 0 0;
+    border-bottom: 1px solid #e2e2e2;
+    height: 314px;
+    width: 752px;
+}
+.about_us .row .about_content .about_us_text {
+    padding: 46px 20px 20px;
+}
+.about_us .row .about_content .about_us_text p {
+    line-height: 35px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.about_us .row .about_content .team_img {
+    background: rgba(0, 0, 0, 0) url("/statics/images/aboutUs/team_img.png") no-repeat scroll 0 0;
+    height: 314px;
+    width: 752px;
+}
+.about_us .row .about_content .team_content .team_each {
+    border-bottom: 1px solid #e2e2e2;
+    min-height: 169px;
+    padding: 25px 30px 0;
+}
+.about_us .row .about_content .team_content .partner_each {
+    border-bottom: 1px solid #f5f5f5;
+    margin: 35px 25px 30px 30px;
+    min-height: 169px;
+}
+.about_us .row .about_content .team_content .team_each .header1 {
+    background: rgba(0, 0, 0, 0) url("/statics/images/aboutUs/leaders.png") no-repeat scroll 0 0;
+    float: left;
+    height: 140px;
+    width: 120px;
+}
+.about_us .row .about_content .team_content .partner_each .headers {
+    background: rgba(0, 0, 0, 0) url("/statics/images/aboutUs/parter-img.png") no-repeat scroll 0 0;
+    float: left;
+    height: 94px;
+    width: 160px;
+}
+.about_us .row .about_content .team_content .partner_each .header1 {
+    background-position: 0 0;
+}
+.about_us .row .about_content .team_content .partner_each .header2 {
+    background-position: 0 -123px;
+}
+.about_us .row .about_content .team_content .partner_each .header3 {
+    background-position: 0 -243px;
+}
+.about_us .row .about_content .team_content .partner_each .header4 {
+    background-position: 0 -359px;
+}
+.about_us .row .about_content .team_content .partner_each .header5 {
+    background-position: 0 -477px;
+}
+.about_us .row .about_content .team_content .partner_each .header1 {
+    background: rgba(0, 0, 0, 0) url("/statics/images/aboutUs/parter-img.png") no-repeat scroll 0 0;
+    float: left;
+    height: 94px;
+    width: 159px;
+}
+.about_us .row .about_content .team_content .team_each .header2 {
+    background: rgba(0, 0, 0, 0) url("/statics/images/aboutUs/leaders.png") no-repeat scroll -120px 0;
+    float: left;
+    height: 140px;
+    width: 120px;
+}
+.about_us .row .about_content .team_content .team_each .header3 {
+    background: rgba(0, 0, 0, 0) url("/statics/images/aboutUs/leaders.png") no-repeat scroll -240px 0;
+    float: left;
+    height: 140px;
+    width: 120px;
+}
+.about_us .row .about_content .team_content .team_each .header4 {
+    background: rgba(0, 0, 0, 0) url("/statics/images/aboutUs/leaders.png") no-repeat scroll -360px 0;
+    float: left;
+    height: 140px;
+    width: 120px;
+}
+.about_us .row .about_content .team_content .team_each .header6 {
+    background: rgba(0, 0, 0, 0) url("/statics/images/aboutUs/leaders2.png") no-repeat scroll 0 0;
+    float: left;
+    height: 140px;
+    width: 120px;
+}
+.about_us .row .about_content .team_content .team_each .header9 {
+    background: rgba(0, 0, 0, 0) url("/statics/images/aboutUs/leaders2.png") no-repeat scroll -120px 0;
+    float: left;
+    height: 140px;
+    width: 118px;
+}
+.about_us .row .about_content .team_content .team_each .header10 {
+    background: rgba(0, 0, 0, 0) url("/statics/images/aboutUs/leaders2.png") no-repeat scroll -238px 0;
+    float: left;
+    height: 140px;
+    width: 118px;
+}
+.about_us .row .about_content .team_content .team_each ul.header_intro {
+    float: right;
+    margin-top: 12px;
+    width: 540px;
+}
+.about_us .row .about_content .team_content .partner_each ul.header_intro {
+    float: right;
+    margin-top: 12px;
+    width: 540px;
+}
+.about_us .row .about_content .team_content .partner_each ul.partner_intro {
+    float: right;
+    width: 514px;
+}
+.about_us .row .about_content .team_content .team_each ul.header_intro li.name {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.about_us .row .about_content .team_content .partner_each ul.header_intro li.name {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.about_us .row .about_content .team_content .team_each ul.header_intro li.header_infor {
+    margin-top: 12px;
+}
+.about_us .row .about_content .team_content .partner_each ul.partner_intro li.header_infor {
+    margin: 12px 0 30px;
+}
+.about_us .row .about_content .team_content p {
+    line-height: 30px;
+    margin: 0;
+}
+.about_us .row .about_content .team_content .team_each .team_intro .name span {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 12px;
+}
+.about_us .row .about_content .team_content .partner_each .team_intro .name span {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 12px;
+}
+.about_us .row .about_content .team_content .team_each .team_intro .team_infor {
+    margin-top: 26px;
+}
+.about_us .row .about_content .team_content .partner_each .team_intro .team_infor {
+    margin-top: 26px;
+}
+.about_us .row .about_content .join_img {
+    background: rgba(0, 0, 0, 0) url("/statics/images/aboutUs/join_img.png") no-repeat scroll 0 0;
+    height: 314px;
+    width: 752px;
+}
+.about_us .row .about_content .team_content .position_choice {
+    border-bottom: 2px solid #e5e5e5;
+    height: 62px;
+    position: relative;
+}
+.about_us .row .about_content .team_content .position_choice li {
+    cursor: pointer;
+    float: left;
+    font-size: 16px;
+    line-height: 62px;
+    text-align: center;
+    width: 125px;
+}
+.about_us .row .about_content .team_content .position_choice li.active {
+    border-bottom: 2px solid #fe9711;
+}
+.about_us .row .about_content .team_content .position_intro {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.about_us .row .about_content .team_content .position_intro ul {
+    border-bottom: 1px solid #e2e2e2;
+    margin-top: 35px;
+    padding-bottom: 50px;
+}
+.about_us .row .about_content ._head {
+    line-height: 23px;
+}
+.about_us .row .about_content ._headName {
+    color: #000;
+    font-size: 18px;
+    line-height: 23px;
+}
+.about_us .row .about_content ._head span {
+    color: #000;
+    font-size: 18px;
+    margin-left: 12px;
+}
+.about_us .row .about_content .team_content .position_intro ul li.position_work {
+    color: #000;
+    font-size: 15px;
+    line-height: 28px;
+    margin-top: 30px;
+}
+.about_us .row .about_content .team_content .position_intro ul li.position_work span.duity {
+    margin-left: 12px;
+}
+.about_us .row .about_content .team_content .position_intro ul li.position_require {
+    font-size: 15px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+.about_us .row .about_content .team_content .position_intro ul li.position_require div {
+    float: left;
+    width: 20px;
+}
+.about_us .row .about_content .team_content .position_intro ul li.position_require p {
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.about_us .row .about_content .team_content .position_intro ul li.position_require p div {
+    float: left;
+}
+.about_us .row .about_content .about_position {
+    background: rgba(0, 0, 0, 0) url("/statics/images/aboutUs/about_position.png") no-repeat scroll 0 0;
+    height: 314px;
+    width: 752px;
+}
+.about_us .row .about_content .call_content .call_class {
+    border-bottom: 1px solid #e2e2e2;
+    height: 169px;
+    padding: 48px 28px 25px 71px;
+}
+.about_us .row .about_content .call_content .call_icons {
+    float: left;
+    height: 126px;
+    margin-top: 20px;
+    width: 144px;
+}
+.about_us .row .about_content .call_content .icons1 {
+    background: rgba(0, 0, 0, 0) url("/statics/images/aboutUs/callus_1.png") no-repeat scroll 0 0;
+}
+.about_us .row .about_content .call_content .icons2 {
+    background: rgba(0, 0, 0, 0) url("/statics/images/aboutUs/callus_2.png") no-repeat scroll 0 0;
+}
+.about_us .row .about_content .call_content .icons3 {
+    background: rgba(0, 0, 0, 0) url("/statics/images/aboutUs/callus_3.png") no-repeat scroll 0 0;
+}
+.about_us .row .about_content .call_content .call_class ul.call_detail {
+    float: right;
+    padding-top: 35px;
+}
+.about_us .row .about_content .call_content .call_class ul.call_detail1 {
+    float: right;
+    margin-right: 190px;
+    padding-top: 35px;
+}
+.about_us .row .about_content .call_content .call_class ul.call_detail li {
+    margin-bottom: 16px;
+}
+.about_us .row .about_content .call_content .call_class ul.call_detail span.text {
+    font-size: 16px;
+    margin-left: 5px;
+}
+.about_us .row .about_content .call_content .call_class ul.call_detail span.text font {
+    color: gray;
+    font-family: "Helvetica";
+    font-size: 12px;
+}
+.about_us .row .about_content .call_content .call_class ul.call_detail3 {
+    margin-right: 225px;
+}
+.about_us .row .about_content .deal_content {
+    padding: 45px 30px 70px;
+}
+.about_us .row .about_content .deal_content h2 {
+    color: #000;
+    font-family: 微软雅黑;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 45px;
+    margin-top: 0;
+    text-align: center;
+}
+.about_us .row .about_content .deal_content p {
+    line-height: 30px;
+    margin-bottom: 25px;
+    margin-top: 0;
+    padding-left: 10px;
+}
+.about_content .content .detail .down .code .android .androidcode {
+    background: rgba(0, 0, 0, 0) url("/statics/images/about_anriod.png") no-repeat scroll 0 0;
+    float: left;
+    height: 128px;
+    margin-left: 62px;
+    width: 128px;
+}
+.about_content .content .detail .down .code .android .name {
+    color: #5ebf00;
+    display: inline-block;
+    font-family: Helvetica;
+    font-size: 24px;
+    margin-left: 76px;
+    margin-top: 15px;
+}
+.about_content .content .detail .contact {
+    float: left;
+    width: 398px;
+}
+.about_content .content .detail .contact .info {
+    margin-top: 69px;
+    padding-left: 49px;
+}
+.about_content .content .detail .contact .info .weixin {
+    height: 136px;
+    padding-bottom: 55px;
+}
+.about_content .content .detail .contact .info .weixin .code {
+    background: rgba(0, 0, 0, 0) url("/statics/images/about_weixin.jpg") no-repeat scroll 0 0;
+    float: left;
+    height: 136px;
+    width: 136px;
+}
+.about_content .content .detail .contact .info span {
+    color: #9b723e;
+    float: left;
+    font-size: 16px;
+}
+.about_content .content .detail .contact .info a {
+    color: #9b723e;
+    float: left;
+    font-size: 16px;
+}
+.about_content .content .detail .contact .info .weixin .before {
+    font-weight: bold;
+    padding-top: 60px;
+}
+.about_content .content .detail .contact .info .weixin .after {
+    color: #9b723e;
+    float: left;
+    font-family: Helvetica;
+    font-size: 16px;
+    padding-right: 45px;
+    padding-top: 60px;
+}
+.about_content .content .detail .contact .info .other {
+    height: 16px;
+    padding-bottom: 30px;
+}
+.about_content .content .detail .contact .info .other .before {
+    font-weight: bold;
+}
+.about_content .content .detail .contact .info .other .after {
+    font-family: Helvetica;
+}
+.about_content .content .coop {
+    background: rgba(0, 0, 0, 0) url("/statics/images/about_coop.png?2015-08-04.png") no-repeat scroll 0 0;
+    height: 242px;
+    margin-bottom: 115px;
+    margin-left: 72px;
+}
+.about_us .row .about_content .deal_content h3 {
+    background-color: #f7f7f7;
+    color: #000;
+    font-family: 微软雅黑;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 25px;
+    margin-top: 0;
+    padding: 10px 0 10px 10px;
+}
+.about_content ul.news {
+    padding: 0 29px 40px;
+}
+.about_content ul li.evel_news {
+    border-bottom: 1px solid #e2e2e2;
+    padding: 39px 0 30px;
+}
+.about_content ul li.evel_news div.title, .about_content ul li.evel_news div.content .lead {
+    float: left;
+    width: 531px;
+}
+.about_content ul li.evel_news .title_news {
+    height: 20px;
+    padding-bottom: 25px;
+}
+.about_content ul li.evel_news .title_news .title {
+    color: #000;
+    float: left;
+    font-size: 16px;
+}
+.about_content ul li.evel_news .title_news div.infor {
+    color: #9a9a9a;
+    float: right;
+    font-size: 12px;
+}
+.about_content ul li.evel_news .title_news div.infor .name {
+    margin-right: 10px;
+}
+.about_content ul li.evel_news div.content {
+    line-height: 25px;
+    padding-bottom: 21px;
+}
+.about_content ul li.evel_news div.content .logo {
+    background: rgba(0, 0, 0, 0) url("/statics/images/news_logo.png?20150916.png") no-repeat scroll 0 0;
+    float: right;
+    height: 50px;
+    margin-top: -8px;
+    overflow: hidden;
+    width: 100px;
+}
+.about_content ul li.evel_news a {
+    color: #fe9711;
+}
+.right_banner {
+    border-color: #fff #fff #fff #fe9711;
+    border-style: solid;
+    border-width: 5px 0 5px 6px;
+    display: inline-block;
+    height: 0;
+    margin-left: 10px;
+    width: 0;
+}
+.about_content ul li.evel_news a span {
+    display: inline-block;
+}
+.about_us .row .about_content .page {
+    float: right;
+    font-size: 12px;
+    margin: 15px 29px 15px 0;
+}
+.about_us .row .about_content .page span {
+    margin-left: 10px;
+}
+.about_us .row .about_content .page a {
+    margin-left: 10px;
+}
+.about_content ul li.evel_news div.content .renmin {
+    background-position: -50px -38px;
+}
+.about_content ul li.evel_news div.content .hexun {
+    background-position: -183px -38px;
+}
+.about_content ul li.evel_news div.content .Kr {
+    background-position: -305px -38px;
+}
+.about_content ul li.evel_news div.content .beichen {
+    background-position: -50px -116px;
+}
+.about_content ul li.evel_news div.content .xinwen {
+    background-position: -183px -116px;
+}
+.about_content ul li.evel_news div.content .caifu {
+    background-position: -305px -116px;
+}
+.about_content ul li.evel_news div.content .jinghua {
+    background-position: -50px -196px;
+}
+.about_content ul li.evel_news div.content .xinlang {
+    background-position: -183px -196px;
+}
+.about_content ul li.evel_news div.content .jinrong {
+    background-position: -305px -196px;
+}
+.about_content ul li.evel_news div.content .xinhua {
+    background-position: -50px -274px;
+}
+.about_content ul li.evel_news div.content .wangyi {
+    background-position: -183px -274px;
+}
+.about_content ul li.evel_news div.content .tengxun {
+    background-position: -305px -274px;
+}
+.about_content ul li.evel_news div.content .caixin {
+    background-position: -50px -362px;
+}
+.about_content ul li.evel_news div.content .fenghuang {
+    background-position: -183px -362px;
+}
+.about_content ul li.evel_news div.content .jiemian {
+    background-position: -305px -362px;
+}
+.about_content ul li.evel_news div.content .chuangye {
+    background-position: -50px -442px;
+}
+.about_content ul li.evel_news div.content .dicai {
+    background-position: -183px -442px;
+}
+.about_content ul li.evel_news div.content .zhengquan {
+    background-position: -305px -442px;
+}
+.about_content ul li.evel_news div.content .caijing {
+    background-position: -50px -522px;
+}
+.about_content ul li.evel_news div.content .beiqing {
+    background-position: -183px -522px;
+}
+.about_content ul li.evel_news div.content .zhongjin {
+    background-position: -305px -522px;
+}
+.about_content ul li.evel_news div.content .CN {
+    background-position: -50px -602px;
+}
+.about_content ul li.evel_news div.content .guangming {
+    background-position: -183px -602px;
+}
+.about_content ul li.evel_news div.content .mrcjw {
+    background-position: -305px -602px;
+}
+.about_content ul li.evel_news div.content .zgqyw {
+    background-position: -50px -682px;
+}
+.about_content ul li.evel_news div.content .fbs {
+    background-position: -183px -682px;
+}
+.about_content ul li.evel_news div.content .zhonghua {
+    background-position: -305px -682px;
+}
+.about_content ul li.evel_news div.content .huanqiu {
+    background-position: -50px -762px;
+}
+.about_content ul li.evel_news div.content .iheima {
+    background-position: -183px -762px;
+}
