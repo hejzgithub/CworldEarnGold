@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	<constant name="struts.devMode" value="false" />
+	<constant name="struts.objectFactory" value="spring" />
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+	<constant name="struts.ui.theme" value="simple" />
+	<constant name="struts.locale" value="zh_CN" />
+	<constant name="struts.multipart.maxSize" value="20971520" />
+<!-- 	<constant name="struts.action.extension" value="/"/>  -->
+
+	<package name="front" extends="json-default">
+		<action name="login" class="loginPage">
+			<result name="loginPage">/WEB-INF/jsp/main/loginPage.jsp</result>
+		</action>
+		<action name="register" class="registerPage">
+			<result name="registerPage">/WEB-INF/jsp/main/registerPage.jsp</result>
+		</action>
+		
+		<action name="registerdoc" class="registerdocPage">
+			<result name="registerdocPage">/WEB-INF/jsp/main/registerdocPage.jsp</result>
+		</action>
+		<action name="intro" class="introPage">
+			<result name="introPage">/WEB-INF/jsp/main/introPage.jsp</result>
+		</action>
+		<action name="main" class="mainPage">
+			<result name="main">/WEB-INF/jsp/main/mainPage.jsp</result>
+		</action>
+		<action name="safe" class="safePage">
+			<result name="safePage">/WEB-INF/jsp/main/safePage.jsp</result>
+		</action>
+		<action name="topline" class="topLinePage">
+			<result name="toplinePage">/WEB-INF/jsp/main/topLinePage.jsp</result>
+		</action>
+		<action name="securityimagecode" class="securtyImageCode">  
+            <result name="success" type="stream">  
+                <param name="contentType">image/jpeg</param>  
+               <param name="inputName">imageStream</param>  
+               <param name="bufferSize">2048</param>  
+            </result>  
+		</action> 
+		<action name="media_*" method="{1}" class="tbMediaAction">
+			<result name="result-json" type="json">
+				<param name="root">result</param>
+			</result>
+			<result name="result-jsp">tbmedia/result.jsp</result>
+			<result name="index">tbmedia/index.jsp</result>
+			<result name="intoUpdate">tbmedia/update.jsp</result>
+			<result name="intoAdd">tbmedia/add.jsp</result>
+			<result name="test">index.jsp</result>
+		</action>
+	</package>
+	<package name="user" extends="json-default" namespace="/user">
+		<action name="/*" class="userAction" method="{1}">
+			<result name="adminPage" type="redirect">/gly/main</result>
+		</action>
+	</package>
+	<package name="test" extends="json-default" namespace="/test">
+		<action name="/*" class="testPage" method="{1}">
+			<result name="res_1">/WEB-INF/jsp/main/1.jsp</result>
+			<result name="yanzhengma">/Test/yanzhengma.jsp</result>
+			<result name="showFileUpload">/Test/ImageUploadTest/ShowUpload.jsp</result>
+			
+		</action>
+	</package>
+	<package name="admin" extends="json-default" namespace="/gly">
+		<action name="/*" class="adminAction" method="{1}">
+			<interceptor-ref name="fileUpload">  
+                            <!-- 配置允许上传的文件类型 -->  
+            	<param name="allowedTypes">  
+                      image/bmp,image/png,image/gif,image/jpeg,image/jpg 
+                </param>  
+                            <!-- 配置允许上传的文件大小 -->  
+                <param name="maximumSize">20000</param>  
+                 </interceptor-ref>  
+            <interceptor-ref name="defaultStack" /> 
+			<result name="main">/WEB-INF/jsp/admin/main.jsp</result>
+			<result name="upload" type="redirect">/gly/main</result>
+			<result name="mainPage" type="redirect">/main</result>
+		</action>
+	</package>
+	<package name="account" extends="json-default" namespace="/account">
+		<action name="/*" class="accountPage" method="{1}">
+			<result name="mePage">/WEB-INF/jsp/main/mePage.jsp</result>
+			<result name="transactionPage">/WEB-INF/jsp/main/transactionPage.jsp</result>
+			<result name="goldPage">/WEB-INF/jsp/main/goldPage.jsp</result>
+			<result name="reservePage">/WEB-INF/jsp/main/reservePage.jsp</result>
+			<result name="bankCardPage">/WEB-INF/jsp/main/bankCardPage.jsp</result>
+			<result name="depositPage">/WEB-INF/jsp/main/depositPage.jsp</result>
+			<result name="couponsPage">/WEB-INF/jsp/main/couponsPage.jsp</result>
+		</action>
+	</package>
+	<package name="tradeGold" extends="json-default" namespace="/trade/gold">
+		<action name="/*" class="tradeGoldPage" method="{1}">
+			<result name="detailPage">/WEB-INF/jsp/main/buyGoldPage.jsp</result>
+		</action>
+	</package>
+	<package name="tradeGoldBar" extends="json-default" namespace="/trade/goldbar">
+		<action name="/*" class="tradeGoldBarPage" method="{1}">
+			<result name="mePage">/WEB-INF/jsp/main/mePage.jsp</result>
+		</action>
+	</package>
+	<package name="about" extends="json-default" namespace="/about">
+		<action name="/*" class="aboutPage" method="{1}">
+			<result name="introducePage">/WEB-INF/jsp/main/about-introduce.jsp</result>
+			<result name="teamPage">/WEB-INF/jsp/main/about-team.jsp</result>
+			<result name="professorPage">/WEB-INF/jsp/main/about-professor.jsp</result>
+			<result name="partnerPage">/WEB-INF/jsp/main/about-partner.jsp</result>
+			<result name="mediaPage">/WEB-INF/jsp/main/about-media.jsp</result>
+			<result name="agreementPage">/WEB-INF/jsp/main/about-agreement.jsp</result>
+			<result name="joinusPage">/WEB-INF/jsp/main/about-joinus.jsp</result>
+			<result name="contectPage">/WEB-INF/jsp/main/about-contect.jsp</result>
+		</action>
+	</package>
+</struts>
+

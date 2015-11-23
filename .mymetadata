@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="CWorldEarnGold"
+  id="myeclipse.1445320885225"
+  context-root="/CWorldEarnGold"
+  j2ee-spec="5.0"
+  archive="CWorldEarnGold.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
